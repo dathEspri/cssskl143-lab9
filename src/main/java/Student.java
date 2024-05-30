@@ -20,7 +20,7 @@ public class Student implements Serializable{
 		this.name = other.name;
 	}
 
-	public void setGpa(double grade){
+	public void setGPA(double grade){
 		this.gpa = grade;
 	}
 
@@ -28,7 +28,7 @@ public class Student implements Serializable{
 		this.name = name;
 	}
 
-	public double getGpa(){
+	public double getGPA(){
 		return this.gpa;
 	}
 
@@ -36,7 +36,7 @@ public class Student implements Serializable{
 		return this.name;
 	}
 
-	@Override
+	//@Override
 	public double compareTo(Student s2){
 		if (this.gpa < s2.gpa){
 			return s2.gpa - this.gpa;
