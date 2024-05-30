@@ -25,10 +25,15 @@ public class Application extends JFrame {
 		this.add(myButton);
 		
 		// TODO: when this class implements actionlistener, the line below will compile
-//		myButton.addActionListener(this);
+		myButton.addActionListener(this);
+
 	}
 
 	// TODO: Implement the actionPerformed method
+
+	public void actionPerformed(ActionEvent e){
+
+	}
 
 	// A one line main
 	public static void main(String[] args) {
